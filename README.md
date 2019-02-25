@@ -28,12 +28,17 @@ receivers:
 ### Step 4: Run alert manager 
 
 ```bash
-./alertmanager  --config.file=alertmanager.yaml
+./alertManager/alertmanager --config.file=alertManager/alertmanager.yaml
 
 ```
 ### Step 5: Run main.go to send alert to alert manager by POST request 
 
 ```bash
-go run main.go
+go run alertSender/main.go
 
+```
+### Step 6: Run alertLister to list all alerts
+
+``` bash
+go run alertLister/listAlert.go
 ```
