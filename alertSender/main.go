@@ -1,5 +1,6 @@
 package main
 
+
 import (
 	"bytes"
 	"encoding/json"
@@ -24,7 +25,7 @@ var Alerts []Alert
 func CreateAlerts()  {
 	Alerts = append(Alerts,Alert{
 		Labels: map[string]string{
-			"alertname":"FirstAlert",
+			"alertname":"First Alert",
 			"job":"Do nothing",
 		},
 		Annotations: map[string]string{
@@ -35,7 +36,7 @@ func CreateAlerts()  {
 
 	Alerts = append(Alerts,Alert{
 		Labels: map[string]string{
-			"alertname":"SecondAlert2",
+			"alertname":"Second Alert",
 			"job":"Do something",
 		},
 		Annotations: map[string]string{
@@ -46,7 +47,7 @@ func CreateAlerts()  {
 
 	Alerts = append(Alerts,Alert{
 		Labels: map[string]string{
-			"alertname":"FinalAlert",
+			"alertname":"Final Alert",
 			"job":"take action",
 		},
 		Annotations: map[string]string{
