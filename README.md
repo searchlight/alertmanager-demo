@@ -13,7 +13,7 @@
 alertmanager.yaml
 ```yaml
 global:
-  slack_api_url: 'https://hooks.slack.com/services/TGA8024LF/BG8JMKBR7/waIyk9aPH3p9s'
+  slack_api_url: 'https://hooks.slack.com/services/../../...'
 
 route:
   receiver: 'slack-notifications'
