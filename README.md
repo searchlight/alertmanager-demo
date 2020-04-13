@@ -43,6 +43,10 @@ go run alertSender/main.go
 go run alertLister/listAlert.go
 ```
 
+## Architecture
+
+https://github.com/prometheus/alertmanager#architecture
+
 ## API Reference
 - https://github.com/prometheus/alertmanager#api
 - https://github.com/prometheus/alertmanager/tree/master/api/v2
