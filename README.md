@@ -42,3 +42,8 @@ go run alertSender/main.go
 ``` bash
 go run alertLister/listAlert.go
 ```
+
+## APi Reference
+- https://github.com/prometheus/alertmanager#api
+- https://github.com/prometheus/alertmanager/tree/master/api/v2
+- http://petstore.swagger.io/?url=https://raw.githubusercontent.com/prometheus/alertmanager/master/api/v2/openapi.yaml
